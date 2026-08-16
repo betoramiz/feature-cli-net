@@ -1,0 +1,46 @@
+{{- if with_validation }}
+using FluentValidation;
+{{- end }}
+using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.EntityFrameworkCore;
+using {{ root_namespace }}.Common.Persistence;
+using {{ root_namespace }}.Features.{{ feature_name }}.Domain;
+
+namespace {{ root_namespace }}.Features.{{ feature_name }};
+
+public static class {{ use_case_name }}
+{
+    {{- if request_properties && request_properties.size > 0 }}
+    public record Request(
+        {{- for prop in request_properties }}
+        {{ prop.type }} {{ prop.name }}{{ if !for.last }},{{ end }}
+        {{- end }}
+    );
+    {{- else }}
+    public record Request();
+    {{- end }}
+
+    public record Response();
+
+    {{- if with_validation }}
+    public class Validator : AbstractValidator<Request>
+    {
+        public Validator()
+        {
+            {{- for prop in request_properties }}
+            {{- if prop.type == "string" && !prop.is_nullable }}
+            RuleFor(x => x.{{ prop.name }}).NotEmpty();
+            {{- end }}
+            {{- end }}
+        }
+    }
+    {{- end }}
+}
+
+public class {{ use_case_name }}Handler(AppDbContext db)
+{
+    public Task<Results<Ok<{{ use_case_name }}.Response>, NotFound, Conflict<string>>> Handle({{ use_case_name }}.Request request, CancellationToken cancellationToken)
+    {
+        throw new NotImplementedException();
+    }
+}

@@ -1,0 +1,8 @@
+namespace {{ root_namespace }}.Features.{{ feature_name }}.Domain;
+
+public class {{ entity_name }}
+{
+    public Guid Id { get; set; }
+    public string Name { get; set; } = string.Empty;
+    public DateTimeOffset CreatedAt { get; set; }
+}

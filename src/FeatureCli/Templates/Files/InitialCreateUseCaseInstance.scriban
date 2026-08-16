@@ -1,0 +1,31 @@
+using FluentValidation;
+using Microsoft.AspNetCore.Http.HttpResults;
+using {{ root_namespace }}.Common.Events;
+using {{ root_namespace }}.Common.Persistence;
+using {{ root_namespace }}.Features.{{ feature_name }}.Contracts;
+using {{ root_namespace }}.Features.{{ feature_name }}.Domain;
+
+namespace {{ root_namespace }}.Features.{{ feature_name }};
+
+public static class {{ use_case_name }}
+{
+    public record Request(string Name);
+    public record Response(Guid Id, string Name, DateTimeOffset CreatedAt);
+
+    public class Validator : AbstractValidator<Request>
+    {
+        public Validator()
+        {
+            RuleFor(x => x.Name).NotEmpty().MaximumLength(200);
+        }
+    }
+}
+
+public class {{ use_case_name }}Handler(AppDbContext db, TimeProvider clock, IEventDispatcher events)
+{
+    public Task<Results<Created<{{ use_case_name }}.Response>, Conflict<string>>> Handle(
+        {{ use_case_name }}.Request request, CancellationToken ct)
+    {
+        throw new NotImplementedException();
+    }
+}

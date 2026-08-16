@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>FeatureCli</id>
+    <version>0.2.1</version>
+    <authors>VSA Tools</authors>
+    <description>CLI tool to scaffold Vertical Slice Architecture (VSA) features and use cases in .NET</description>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+    <repository type="git" />
+  </metadata>
+  <files>
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\obj\Release\net10.0\DotnetToolSettings.xml" target="tools\net10.0\any\DotnetToolSettings.xml" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\FeatureCli.deps.json" target="tools\net10.0\any\FeatureCli.deps.json" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\FeatureCli.dll" target="tools\net10.0\any\FeatureCli.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\FeatureCli.pdb" target="tools\net10.0\any\FeatureCli.pdb" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\FeatureCli.runtimeconfig.json" target="tools\net10.0\any\FeatureCli.runtimeconfig.json" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\Microsoft.CodeAnalysis.CSharp.dll" target="tools\net10.0\any\Microsoft.CodeAnalysis.CSharp.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\Microsoft.CodeAnalysis.dll" target="tools\net10.0\any\Microsoft.CodeAnalysis.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\Scriban.dll" target="tools\net10.0\any\Scriban.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\Spectre.Console.Cli.dll" target="tools\net10.0\any\Spectre.Console.Cli.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\Spectre.Console.dll" target="tools\net10.0\any\Spectre.Console.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\cs\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net10.0\any\cs\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\cs\Microsoft.CodeAnalysis.resources.dll" target="tools\net10.0\any\cs\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\de\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net10.0\any\de\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\de\Microsoft.CodeAnalysis.resources.dll" target="tools\net10.0\any\de\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\de\Spectre.Console.Cli.resources.dll" target="tools\net10.0\any\de\Spectre.Console.Cli.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\es\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net10.0\any\es\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\es\Microsoft.CodeAnalysis.resources.dll" target="tools\net10.0\any\es\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\fr\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net10.0\any\fr\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\fr\Microsoft.CodeAnalysis.resources.dll" target="tools\net10.0\any\fr\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\fr\Spectre.Console.Cli.resources.dll" target="tools\net10.0\any\fr\Spectre.Console.Cli.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\it\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net10.0\any\it\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\it\Microsoft.CodeAnalysis.resources.dll" target="tools\net10.0\any\it\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\ja\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net10.0\any\ja\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\ja\Microsoft.CodeAnalysis.resources.dll" target="tools\net10.0\any\ja\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\ko\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net10.0\any\ko\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\ko\Microsoft.CodeAnalysis.resources.dll" target="tools\net10.0\any\ko\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\pl\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net10.0\any\pl\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\pl\Microsoft.CodeAnalysis.resources.dll" target="tools\net10.0\any\pl\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net10.0\any\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\pt-BR\Microsoft.CodeAnalysis.resources.dll" target="tools\net10.0\any\pt-BR\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\ru\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net10.0\any\ru\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\ru\Microsoft.CodeAnalysis.resources.dll" target="tools\net10.0\any\ru\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\sv\Spectre.Console.Cli.resources.dll" target="tools\net10.0\any\sv\Spectre.Console.Cli.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\tr\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net10.0\any\tr\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\tr\Microsoft.CodeAnalysis.resources.dll" target="tools\net10.0\any\tr\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net10.0\any\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\zh-Hans\Microsoft.CodeAnalysis.resources.dll" target="tools\net10.0\any\zh-Hans\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net10.0\any\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net10.0\publish\zh-Hant\Microsoft.CodeAnalysis.resources.dll" target="tools\net10.0\any\zh-Hant\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\obj\Release\net8.0\DotnetToolSettings.xml" target="tools\net8.0\any\DotnetToolSettings.xml" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\FeatureCli.deps.json" target="tools\net8.0\any\FeatureCli.deps.json" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\FeatureCli.dll" target="tools\net8.0\any\FeatureCli.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\FeatureCli.pdb" target="tools\net8.0\any\FeatureCli.pdb" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\FeatureCli.runtimeconfig.json" target="tools\net8.0\any\FeatureCli.runtimeconfig.json" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\Microsoft.CodeAnalysis.CSharp.dll" target="tools\net8.0\any\Microsoft.CodeAnalysis.CSharp.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\Microsoft.CodeAnalysis.dll" target="tools\net8.0\any\Microsoft.CodeAnalysis.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\Scriban.dll" target="tools\net8.0\any\Scriban.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\Spectre.Console.Cli.dll" target="tools\net8.0\any\Spectre.Console.Cli.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\Spectre.Console.dll" target="tools\net8.0\any\Spectre.Console.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\System.Collections.Immutable.dll" target="tools\net8.0\any\System.Collections.Immutable.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\System.Reflection.Metadata.dll" target="tools\net8.0\any\System.Reflection.Metadata.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\cs\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net8.0\any\cs\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\cs\Microsoft.CodeAnalysis.resources.dll" target="tools\net8.0\any\cs\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\de\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net8.0\any\de\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\de\Microsoft.CodeAnalysis.resources.dll" target="tools\net8.0\any\de\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\de\Spectre.Console.Cli.resources.dll" target="tools\net8.0\any\de\Spectre.Console.Cli.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\es\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net8.0\any\es\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\es\Microsoft.CodeAnalysis.resources.dll" target="tools\net8.0\any\es\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\fr\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net8.0\any\fr\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\fr\Microsoft.CodeAnalysis.resources.dll" target="tools\net8.0\any\fr\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\fr\Spectre.Console.Cli.resources.dll" target="tools\net8.0\any\fr\Spectre.Console.Cli.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\it\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net8.0\any\it\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\it\Microsoft.CodeAnalysis.resources.dll" target="tools\net8.0\any\it\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\ja\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net8.0\any\ja\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\ja\Microsoft.CodeAnalysis.resources.dll" target="tools\net8.0\any\ja\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\ko\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net8.0\any\ko\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\ko\Microsoft.CodeAnalysis.resources.dll" target="tools\net8.0\any\ko\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\pl\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net8.0\any\pl\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\pl\Microsoft.CodeAnalysis.resources.dll" target="tools\net8.0\any\pl\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net8.0\any\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\pt-BR\Microsoft.CodeAnalysis.resources.dll" target="tools\net8.0\any\pt-BR\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\ru\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net8.0\any\ru\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\ru\Microsoft.CodeAnalysis.resources.dll" target="tools\net8.0\any\ru\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\sv\Spectre.Console.Cli.resources.dll" target="tools\net8.0\any\sv\Spectre.Console.Cli.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\tr\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net8.0\any\tr\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\tr\Microsoft.CodeAnalysis.resources.dll" target="tools\net8.0\any\tr\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net8.0\any\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\zh-Hans\Microsoft.CodeAnalysis.resources.dll" target="tools\net8.0\any\zh-Hans\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net8.0\any\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net8.0\publish\zh-Hant\Microsoft.CodeAnalysis.resources.dll" target="tools\net8.0\any\zh-Hant\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\obj\Release\net9.0\DotnetToolSettings.xml" target="tools\net9.0\any\DotnetToolSettings.xml" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\FeatureCli.deps.json" target="tools\net9.0\any\FeatureCli.deps.json" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\FeatureCli.dll" target="tools\net9.0\any\FeatureCli.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\FeatureCli.pdb" target="tools\net9.0\any\FeatureCli.pdb" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\FeatureCli.runtimeconfig.json" target="tools\net9.0\any\FeatureCli.runtimeconfig.json" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\Microsoft.CodeAnalysis.CSharp.dll" target="tools\net9.0\any\Microsoft.CodeAnalysis.CSharp.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\Microsoft.CodeAnalysis.dll" target="tools\net9.0\any\Microsoft.CodeAnalysis.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\Scriban.dll" target="tools\net9.0\any\Scriban.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\Spectre.Console.Cli.dll" target="tools\net9.0\any\Spectre.Console.Cli.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\Spectre.Console.dll" target="tools\net9.0\any\Spectre.Console.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\System.Collections.Immutable.dll" target="tools\net9.0\any\System.Collections.Immutable.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\System.Reflection.Metadata.dll" target="tools\net9.0\any\System.Reflection.Metadata.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\cs\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net9.0\any\cs\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\cs\Microsoft.CodeAnalysis.resources.dll" target="tools\net9.0\any\cs\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\de\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net9.0\any\de\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\de\Microsoft.CodeAnalysis.resources.dll" target="tools\net9.0\any\de\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\de\Spectre.Console.Cli.resources.dll" target="tools\net9.0\any\de\Spectre.Console.Cli.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\es\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net9.0\any\es\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\es\Microsoft.CodeAnalysis.resources.dll" target="tools\net9.0\any\es\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\fr\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net9.0\any\fr\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\fr\Microsoft.CodeAnalysis.resources.dll" target="tools\net9.0\any\fr\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\fr\Spectre.Console.Cli.resources.dll" target="tools\net9.0\any\fr\Spectre.Console.Cli.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\it\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net9.0\any\it\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\it\Microsoft.CodeAnalysis.resources.dll" target="tools\net9.0\any\it\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\ja\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net9.0\any\ja\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\ja\Microsoft.CodeAnalysis.resources.dll" target="tools\net9.0\any\ja\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\ko\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net9.0\any\ko\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\ko\Microsoft.CodeAnalysis.resources.dll" target="tools\net9.0\any\ko\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\pl\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net9.0\any\pl\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\pl\Microsoft.CodeAnalysis.resources.dll" target="tools\net9.0\any\pl\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net9.0\any\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\pt-BR\Microsoft.CodeAnalysis.resources.dll" target="tools\net9.0\any\pt-BR\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\ru\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net9.0\any\ru\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\ru\Microsoft.CodeAnalysis.resources.dll" target="tools\net9.0\any\ru\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\sv\Spectre.Console.Cli.resources.dll" target="tools\net9.0\any\sv\Spectre.Console.Cli.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\tr\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net9.0\any\tr\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\tr\Microsoft.CodeAnalysis.resources.dll" target="tools\net9.0\any\tr\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net9.0\any\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\zh-Hans\Microsoft.CodeAnalysis.resources.dll" target="tools\net9.0\any\zh-Hans\Microsoft.CodeAnalysis.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll" target="tools\net9.0\any\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <file src="C:\code\Pitaya\fullstack\FeatureCli\src\FeatureCli\bin\Release\net9.0\publish\zh-Hant\Microsoft.CodeAnalysis.resources.dll" target="tools\net9.0\any\zh-Hant\Microsoft.CodeAnalysis.resources.dll" />
+  </files>
+</package>

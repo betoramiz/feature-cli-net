@@ -1,0 +1,13 @@
+using {{ root_namespace }}.Common.Endpoints;
+
+namespace {{ root_namespace }}.Features.{{ feature_name }};
+
+public sealed class Endpoints : IFeatureEndpoints
+{
+    public static void Map(IEndpointRouteBuilder app)
+    {
+        var group = app.MapGroup("{{ route_prefix }}").WithTags("{{ feature_name }}");
+
+{{ mapping_line }}
+    }
+}
